@@ -5,6 +5,7 @@ body{
 #title{
     background-color: #ff4c68;
     color: #fff;
+    padding-top: -200px;
 }
 h1{
     /* font-family: 'Montserrat-Black'; */
@@ -28,7 +29,7 @@ p{
     color: #8f8f8f;
 }
 .container-fluid{
-    padding: 3% 15%;
+    padding: 5% 15%;
 }
 /* Navigation Bar */
 .navbar{
@@ -47,9 +48,13 @@ p{
     font-weight: 300;
 }
 /* Download Buttons */
+.indexing{
+    padding-top: 50px;
+}
 .download-button{
     margin: 5% 3% 5% 0;
-    text-align: left;
+    position: relative;
+    right: 80px;
 }
 /* Title image */
 .title-image{
@@ -57,7 +62,6 @@ p{
     width: 60%;
     transform: rotate(25deg);
 }
-
 /* Features Section */
 #features {
     padding: 7% 15%;
