@@ -56,6 +56,9 @@ p{
     position: relative;
     right: 80px;
 }
+.download-button1{
+    margin: 5% 3% 5% 0;
+}
 /* Title image */
 .title-image{
     margin: auto auto -14rem 50px;
